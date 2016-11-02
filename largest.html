@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Largest</title>
+	<script>
+	// to hold the largest number
+		var lar = 0;
+
+		// initialize the for loop to get four numbers
+		for (var i = 0; i < 4; i++) {
+			// store it in variable input
+			var input = prompt("Number Please...");
+			// convert it into integer
+			var num = parseInt(input, 10);
+
+			// compare the number to current largest
+			if (lar < num){
+				// assign it to variable lar if it is true
+				lar = num;
+			}
+
+			// print out the inputs
+			console.log(num);
+		}
+
+		// print out the largest number
+		console.log("The largest number is " + lar);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
